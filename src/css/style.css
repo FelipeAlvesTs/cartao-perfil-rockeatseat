@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../image/bg-mobile.jpg') no-repeat top center/cover;
+}
+
+#container {
+    width: 360px;
+    margin: auto;
+    border: 1px solid red;
+}
