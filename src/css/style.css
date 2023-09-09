@@ -8,8 +8,27 @@ body {
     background: url('../image/bg-mobile.jpg') no-repeat top center/cover;
 }
 
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
 #container {
     width: 360px;
-    margin: auto;
+    margin: 56px auto 0;
     border: 1px solid red;
+}
+
+#profile {
+    padding: 24px;
+    text-align: center;
+}
+
+#profile img {
+    width: 112px;
+}
+
+#profile p {
+    margin-top: 8px;
+    font-weight: 500;
 }
