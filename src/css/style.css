@@ -12,6 +12,7 @@
     --surface-color: #ffffff1a;
     --surface-color-hover: #ffffff0d;
     --highlight-color: #ffffff33;
+    --switch-bg-url: url(../image/moon-stars.svg);
 }
 
 .light {
@@ -21,6 +22,7 @@
     --surface-color: #ffffff80;
     --surface-color-hover: #ffffff05;
     --highlight-color: #ffffff80;
+    --switch-bg-url: url(../image/sun.svg)
 }
 
 body {
@@ -38,6 +40,8 @@ body * {
     padding: 0 24px;
 }
 
+/*profile*/
+
 #profile {
     padding: 24px;
     text-align: center;
@@ -50,6 +54,15 @@ body * {
 #profile p {
     margin-top: 8px;
     font-weight: 500;
+}
+
+/*switch*/
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg-url) no-repeat center;
+    border-radius: 50%;
+    border: 0;
 }
 
 ul {
